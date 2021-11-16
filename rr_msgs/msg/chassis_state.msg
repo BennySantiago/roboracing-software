@@ -4,5 +4,5 @@ bool estop_on           # whether the estop is turned on. When the estop is on (
 bool mux_autonomous     # when mux_automous is set to true, the robot is being controlled autonomously
 float32 speed_mps       # speed of the car in m/s
 float32 steer_rad       # steering angle of the car in radians
-string state            # FSM state from the Arduino
+string state            # FSM state from the planner
 bool record_bag		    # reading from remote control. When true, data is recorded to bag file.
